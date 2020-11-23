@@ -1,7 +1,26 @@
-img{
-	opacity:.6;
-	padding-left: 25px;
+@font-face {
+  font-family: DancingScript;
+  src: url(DancingScript.ttf);
 }
-header{
-	font-size: 1.5em
+
+html *
+{
+	margin: 3%;
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) ;
+}
+
+#logo{
+	margin-left:2%;
+	float:left; 
+	height:8em;
+	width:8em;
+}
+header
+{
+	
+	font-size: 3.7em;
+	padding-left: 4em;
+	padding-top: 0.5em;
+	font-family: "DancingScript"
+
 }
