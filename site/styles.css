@@ -2,11 +2,13 @@
   font-family: DancingScript;
   src: url(DancingScript.ttf);
 }
-
-html *
-{
-	margin: 3%;
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) ;
+html{
+	margin:5em;
+}
+.topstyle{
+	position: relative; 
+	height: 1920px;
+	width: 1080px;
 }
 
 #logo{
@@ -15,12 +17,29 @@ html *
 	height:8em;
 	width:8em;
 }
+
+
 header
 {
-	
-	font-size: 3.7em;
+	 position: absolute; 
+	font-size: 4em;
 	padding-left: 4em;
 	padding-top: 0.5em;
-	font-family: "DancingScript"
+	font-family: "DancingScript";
+	margin-bottom: 0.5em;	
 
+}
+
+nav 
+{
+	margin-right: 5.0em;
+	font-size: 2.5em;
+	font-family: "DancingScript";
+	text-align: right;
+	
+}
+nav >a
+{
+	text-decoration: none;	
+	margin: 0.5em;
 }
