@@ -6,9 +6,12 @@ html,body{
   width:100%
   font-family:'Poppins', sans-serif;
   color: #222;
+  scroll-behavior: smooth;
+  transition: 0.4s;
 }
 .navbar{
   padding: .8rem;
+  transition: 0.3s;
 }
 .navbar-nav li{
   padding-right: 20px;
