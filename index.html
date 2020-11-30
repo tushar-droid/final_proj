@@ -15,43 +15,264 @@
 <body>
 
 <!-- Navigation -->
-
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<button class="navbar-toggler" type ="button" data-toggle="collapse"
+		data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class ="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link"href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"href="#">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"href="#">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"href="#">Book Now</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
 
 <!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/background.png">
+			<div class="carousel-caption">
+				<h1 class ="dsiplay-2">The Paradise</h1>
+				<h3>The Best Place To Be.</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">BOOK NOW</button>
+				<button type="button" class="btn btn-primary btn-lg">OFFERS</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/background2.png">
+		</div>
+		<div class="carousel-item">
+			<img src="img/background3.png">
+		</div>
+	</div>
+	
+</div>
 
 
 <!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">
+				If you are looking for a convenient location, complimentary breakfast and a comfortable place to rest while on leisure or business travel we have you covered
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"> <button type="button" class="btn btn-outline-secondary btn-lg">BOOK NOW</button></a>
+		</div>
+	</div>
+</div>
+
 
 
 <!--- Welcome Section -->
-
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">SOME MORE REASONS</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">WE GOT YOU COVERED FOR ALL THE OCCASIONS</p>
+	</div>
+</div>
 
 <!--- Three Column Section -->
-
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-code"></i>
+		<h3>HTML5</h3>
+		<p>Built with latest HTML, HTML5</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-bold"></i>
+		<h3>BOOTSTRAP</h3>
+		<p>built with latest bootstrap,bootstrap 4</p>
+		</div>
+		<div class="col-sm-12 col-md-4">
+		<i class="fab fa-css3"></i>
+		<h3>css3</h3>
+		<p>built with latest css, css3</p>
+		</div>
+		</div>
+	<hr class="my-4">
+</div>
 
 <!--- Two Column Section -->
+ <div class="container-fluid padding">
+ 	<div class="row padding">
+ 		<div class="col-lg-6">
+ 			<h2>If you build it..</h2>
+ 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus iaculis diam at ultrices. Etiam aliquet, est at viverra pellentesque, tortor tellus aliquet est, quis varius quam diam eget felis. Praesent commodo lobortis augue eu pellentesque.</p>
+ 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus iaculis diam at ultrices. Etiam aliquet, est at viverra pellentesque, tortor tellus aliquet est, quis varius quam diam eget felis. Praesent commodo lobortis augue eu pellentesque.</p>
+ 			<br>
+ 			<a href="#" class="btn btn-primary">Learn More</a>
+ 		</div>
+ 		<div class="col-lg-6">
+ 			<img src="img/desk.png" class="img-fluid">
+ 		</div>
+ 	</div>
+ </div>
 
-
+<hr class="my-4">
 <!--- Fixed background -->
-
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed"></div>
+	</div>
+</figure>
 
 <!--- Emoji Section -->
-
-  
+<button class="fun" data-toggle="collapse" data-target="#emoji">CLick For Fun</button>
+  <div id="emoji" class="collapse">
+  	<div class="container-fluid padding">
+  		<div class="row text-center"> 
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif"src="img/gif/panda.gif">
+  			</div>
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif"src="img/gif/poo.gif">
+  			</div>
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif"src="img/gif/unicorn.gif">
+  			</div>
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif"src="img/gif/chicken.gif">
+  			</div>
+  		</div>
+  	</div>
+  </div>
 <!--- Meet the team -->
-
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet the Team</h1>
+		</div>
+		<hr>
+	</div>
+</div>
 
 <!--- Cards -->
-
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/team1.png">
+				<div class="card-body">
+					<h4 class="card-title">jofn Doe</h4>
+					<p class="card-text">jfdskfjivodsif f ahfiofhoifha fhaefhfieof hiohfaiofha hisoafhiohcadnv </p>
+					<a href="#" class="btn btn-outline-secondary">See Profile </a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/team2.png">
+				<div class="card-body">
+					<h4 class="card-title">mary jo</h4>
+					<p class="card-text">jfdskfjivodsif f ahfiofhoifha fhaefhfieof hiohfaiofha hisoafhiohcadnv </p>
+					<a href="#" class="btn btn-outline-secondary">See Profile </a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/team3.png">
+				<div class="card-body">
+					<h4 class="card-title">Phil Ho</h4>
+					<p class="card-text">jfdskfjivodsif f ahfiofhoifha fhaefhfieof hiohfaiofha hisoafhiohcadnv </p>
+					<a href="#" class="btn btn-outline-secondary">See Profile </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!--- Two Column Section -->
 
+<div class="container-fluid padding">
+ 	<div class="row padding">
+ 		<div class="col-lg-6">
+ 			<h2>our philosophy </h2>
+ 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus iaculis diam at ultrices. Etiam aliquet, est at viverra pellentesque, tortor tellus aliquet est, quis varius quam diam eget felis. Praesent commodo lobortis augue eu pellentesque.</p>
+ 			<br>		
+ 		</div>
+ 		<div class="col-lg-6">
+ 			<img src="img/bootstrap2.png" class="img-fluid">
+ 		</div>
+ 	</div>
+ </div>
 
 <!--- Connect -->
-
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+</div>
 
 <!--- Footer -->
-
+<footer>
+	<div class="container-fluid pading">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/w3newbie.png">
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@gmail.com</p>
+				<p>somehere around</p>
+				<p>vancouver </p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our hours</h5>
+				<hr class="light">
+				<p>monday</p>
+				<p>monday</p>
+				<p>monday</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service area</h5>
+				<hr class="light">
+				<p>0000000</p>
+				<p>0000000</p>
+				<p>0000000</p>
+			</div>
+			<div class="col-12">
+				<hr class="light">
+				<h5>&copy; anything.com </h5>
+			</div>
+		</div>
+	</div>
+</footer>
 
 
 
@@ -59,14 +280,5 @@
 </html>
 
 
-
-
-<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
-<div class="youtube-tutorial">
-	<a href="http://w3n.link/bundle-bonus-playlist" target="_blank" style="cursor: pointer!important;">
-    <img src="https://w3newbie.com/wp-content/uploads/12-site-bundle-banner.png" style="max-width: 100%; position: absolute; bottom: 0;">
-  </a>
-</div>
-<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
 
 
