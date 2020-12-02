@@ -30,8 +30,7 @@ html,body{
   transform: translateY(-50%);
 }
 .carousel-caption h1{
-  font-size: 500%;
-  padding-left:60px; 
+  font-size: 500%; 
   text-transform: uppercase;;
   text-shadow: 1px 1px 15px #000;
 }
@@ -69,11 +68,21 @@ html,body{
   margin-bottom: 1em;
 }
 .img-fluid{
- 
   height: 450px;
   width: 600px;
 }
 
+.img-fluid:hover{
+display:block;
+background:#000;
+opacity:.7;
+}
+
+.card-img-top:hover{
+display:block;
+background:#000;
+opacity:.7;
+}
 .fa-glass-martini{
   color: #e54d26;  
 }
@@ -87,15 +96,13 @@ html,body{
   font-size: 4em;
   margin:1em;
 }
-.fun{
+.review{
   width:100%;
   height: 75px;
   margin-bottom:2em;
   font-size: 1.5em; 
 }
-.gif{
-  max-width:100%;
-}
+
 .social a {
   font-size: 4.5em;
   padding: 3rem;
