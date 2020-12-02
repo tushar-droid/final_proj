@@ -6,7 +6,7 @@ var hideScroll = window.pageYOffset;
       if (hideScroll > window.pageYOffset) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-90px";
+        document.getElementById("navbar").style.top = "-108px";
       }
 
     hideScroll = currentScrollPos;

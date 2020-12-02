@@ -2,8 +2,8 @@
 
 
 html,body{
-  height: 100%
-  width:100%
+  height: 100%;
+  width:100%;
   font-family:'Poppins', sans-serif;
   color: #222;
   scroll-behavior: smooth;
@@ -12,6 +12,7 @@ html,body{
 .navbar{
   padding: .8rem;
   transition: 0.3s;
+ 
 }
 .navbar-nav li{
   padding-right: 20px;
@@ -30,6 +31,7 @@ html,body{
 }
 .carousel-caption h1{
   font-size: 500%;
+  padding-left:60px; 
   text-transform: uppercase;;
   text-shadow: 1px 1px 15px #000;
 }
@@ -66,23 +68,30 @@ html,body{
   margin-top: 0.3em;
   margin-bottom: 1em;
 }
+.img-fluid{
+ 
+  height: 450px;
+  width: 600px;
+}
 
-.fa-code{
+.fa-glass-martini{
   color: #e54d26;  
 }
-.fa-bold{
+.fa-swimmer{
   color: #563d7c;
 }
-.fa-css3{
+.fa-car{
   color: #2163af
 }
-.fa-code, .fa-bold, .fa-css3{
+.fa-glass-martini, .fa-swimmer, .fa-car{
   font-size: 4em;
   margin:1em;
 }
 .fun{
   width:100%;
+  height: 75px;
   margin-bottom:2em;
+  font-size: 1.5em; 
 }
 .gif{
   max-width:100%;
@@ -191,7 +200,6 @@ hr.light-100{
 }
 
 }
-
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
